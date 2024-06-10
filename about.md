@@ -28,4 +28,12 @@ title: 公司简介
         </div>
 	</div>
 </div>
-
+<style>
+	body {
+	  /*加载背景图：图片地址 不平铺 */
+	  background: url(背景图1.jpg) no-repeat;
+	  /* 让背景图基于容器大小伸缩 */
+	  background-size: 100% 100%;
+	  background-attachment: fixed;
+	}
+  </style>
