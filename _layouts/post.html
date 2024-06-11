@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
+<h2 style="color: rgb(64,224,208);">{{ page.title }}</h2>
 
-<p>
+<p style="color: rgb(64,224,208); font-size: 20px;">
   {{ page.date | date_to_string }}
   {% assign author = site.authors | where: 'short_name', page.author | first %}
   {% if author %}
