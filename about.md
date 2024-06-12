@@ -37,7 +37,7 @@ title: 公司简介
 <style>
 	body {
 	  /*加载背景图：图片地址 不平铺 */
-	  background: url(背景图1.jpg) no-repeat;
+	  background: url(/imges/bjt/背景图1.jpg) no-repeat;
 	  /* 让背景图基于容器大小伸缩 */
 	  background-size: 100% 100%;
 	  background-attachment: fixed;
